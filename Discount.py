@@ -11,9 +11,9 @@ def calculateDiscount(price, discount_percent):
 
 # Prompting the use to insert price and discount percentage
 price = input("Enter the price of the item: ")
-price = int(price)
+price = float(price)
 discount_percent = input("Enter the discount percentage: ")
-discount_percent = int(discount_percent)
+discount_percent = float(discount_percent)
 
 # Calling the calculateDiscount by assigning it to the variable called final_price
 final_price = calculateDiscount(price, discount_percent)
